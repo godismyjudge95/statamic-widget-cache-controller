@@ -9,14 +9,14 @@
     </header>
     <div class="flex flex-wrap px-2">
         <div class="w-1/2 pr-1 py-2">
-            <h3 class="font-bold mb-2">{{ __('Content Stache') }}</h3>
+            <h3 class="font-bold mb-1">{{ __('Content Stache') }}</h3>
             <form method="POST" action="{{ cp_route('utilities.cache.clear', 'stache') }}">
                 @csrf
                 <button class="btn w-full">{{ __('Clear') }}</button>
             </form>
         </div>
         <div class="w-1/2 pl-1 py-2">
-            <h3 class="font-bold mb-2">{{ __('Static Page Cache') }}</h3>
+            <h3 class="font-bold mb-1">{{ __('Static Page Cache') }}</h3>
             @if (config('statamic:static_caching') != null)
                 <form method="POST" action="{{ cp_route('utilities.cache.clear', 'static') }}">
                     @csrf
@@ -27,14 +27,14 @@
             @endif
         </div>
         <div class="w-1/2 pr-1 pb-2">
-            <h3 class="font-bold mb-2">{{ __('Application Cache') }}</h3>
+            <h3 class="font-bold mb-1">{{ __('Application Cache') }}</h3>
             <form method="POST" action="{{ cp_route('utilities.cache.clear', 'application') }}">
                 @csrf
                 <button class="btn w-full">{{ __('Clear') }}</button>
             </form>
         </div>
         <div class="w-1/2 pl-1 pb-2">
-            <h3 class="font-bold mb-2">{{ __('Image Cache') }}</h3>
+            <h3 class="font-bold mb-1">{{ __('Image Cache') }}</h3>
             <form method="POST" action="{{ cp_route('utilities.cache.clear', 'image') }}">
                 @csrf
                 <button class="btn w-full">{{ __('Clear') }}</button>
