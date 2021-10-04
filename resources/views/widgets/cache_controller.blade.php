@@ -17,7 +17,7 @@
         </div>
         <div class="w-1/2 pl-1 py-2">
             <h3 class="font-bold mb-1">{{ __('Static Page Cache') }}</h3>
-            @if (config('statamic:static_caching') != null)
+            @if (config('statamic:static_caching:strategy') != null)
                 <form method="POST" action="{{ cp_route('utilities.cache.clear', 'static') }}">
                     @csrf
                     <button class="btn w-full">{{ __('Clear') }}</button>
