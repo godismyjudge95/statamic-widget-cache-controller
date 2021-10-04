@@ -1,7 +1,5 @@
 # Statamic Widget: Cache Controller
 
-![Statamic 3.0+](https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge&link=https://statamic.com)
-
 This widget lets you empty all of Statamic's caches right from the control panel dashboard.
 
 ## Requirements
