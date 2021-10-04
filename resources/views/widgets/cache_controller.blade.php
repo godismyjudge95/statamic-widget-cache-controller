@@ -40,7 +40,7 @@
                 <button class="btn w-full">{{ __('Clear') }}</button>
             </form>
         </div>
-        <div class="w-full py-2 border-t-2">
+        <div class="w-full py-2 border-t">
             <form method="POST" action="{{ cp_route('utilities.cache.clear', 'all') }}">
                 @csrf
                 <button class="btn-primary w-full">{{ __('Clear All') }}</button>
