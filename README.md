@@ -25,4 +25,4 @@ To add the widget to your control panel dashboard, edit the config under `config
 
 ## About Us
 
-[Webographen](https://en.webographen.de/) is a digital design studio focusing on Statamic. We make websites that are not just pretty, but scale in terms of design and technology.
+[Webographen](https://webographen.de/) is a digital design studio focusing on Statamic. We make websites that are not just pretty, but scale in terms of design and technology.
